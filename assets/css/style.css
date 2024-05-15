@@ -90,8 +90,7 @@ section.hero {
         }
         &:hover {
             transform: scale(110%) translateY (-4px);
-            box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 10px -7px;;
+            box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 10px -7px;
         }
     }
   }
-}
