@@ -1,12 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 /* Dev (dinidelete)*/
-section.hero,
-section.hero* {
+header,
+header * {
     outline: 1px dashed red
+}
+
+section.hero,
+section.hero * {
+    outline: 1px dashed blue;
 }
 
 /* Dep (hindi dinidelete)*/
@@ -49,6 +54,7 @@ section.hero {
     position: relative;
     justify-content: center;
 
+
     & img {
         position: absolute;
         left: 0;
@@ -56,7 +62,8 @@ section.hero {
         width: 100%;
         object-fit: cover;
         height: 100vh;
-        opacity: 90%;
+        opacity: 80%;
+        z-index: -1;
     }
 
     & .content {
@@ -64,33 +71,24 @@ section.hero {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
-        background: white;
+        background: rgba(255, 255, 255, 0.219);
         padding: 1.5rem;
-        margin: 1rem;
+        margin: 10rem;
         gap: 14px;
 
-        & h3{
+        & h3 {
             font-size: 1.5rem;
         }
         & h2{
             font-size: 3rem;
         }
-        & p{
+        & p {
             font-size: 1.2rem;
             text-align: center;
         }
 
-        & button {
+        & button{
             padding: 8px 16px;
-            border-radius: 5px;
-            border: none;
-            cursor: pointer;
-            transition: .3s ease-out;
-        }
-        &:hover {
-            transform: scale(110%) translateY (-4px);
-            box-shadow: rgba(0, 0, 0, 0.2) 0px 15px 10px -7px;
         }
     }
-  }
+}
