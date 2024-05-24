@@ -57,7 +57,7 @@ https://github.com/kichiya999x/WD-Seatwork-2-TC04
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This website serves as a central hub for showcasing my resume, education, skills, and various accomplishments.
 
 Guiding Question:
 - What is the project - A digital portfolio designed to present my professional and personal information. 
