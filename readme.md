@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  This is my short description
+  This is my personal website! Here you will explore my background, connect for potential opportunities, or simply get to know me better, I hope you find this site informative and engaging!
 </div>
 
 <br />
