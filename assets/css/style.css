@@ -31,6 +31,7 @@ header {
             transition: .3s ease-in-out;
  
             &:hover {
+                transform: scale(110%) translateY(-5px);
                 color: rgb(15, 15, 15);
             }
         }
@@ -53,7 +54,7 @@ section.hero {
         width: 100%;
         object-fit: cover;
         height: 100vh;
-        opacity: 90%;
+        opacity: 95%;
         z-index: -1;
     }
  
@@ -66,6 +67,7 @@ section.hero {
         padding: 1.5rem;
         margin: 20rem;
         gap: 14px;
+        border-radius: 10px;
  
         & h3 {
             font-size: 1.5rem;
